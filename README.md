@@ -1,36 +1,11 @@
 # WordPress Plugin Template
 A basic object oriented WordPress plugin template to get started quickly with plugin development. Uses Gulp and contains basic file structure.
 
+## Documentation
 
-## Getting Started
+All documentation for this plugin template is located in the [Wiki](https://github.com/smeechos/wordpress-plugin-template/wiki) for this repo.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+If you have issues or find a bug, please [create an issue](https://github.com/smeechos/wordpress-plugin-template/issues).
 
 ## Built With
 
