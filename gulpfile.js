@@ -18,9 +18,9 @@ function complieSass(cb) {
 }
 
 function complieAdminSass(cb) {
-    return gulp.src('./assets/css/public/src/sass/*.scss')
+    return gulp.src('./assets/css/admin/src/sass/*.scss')
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('./assets/css/public/src'));
+        .pipe(gulp.dest('./assets/css/admin/src'));
 }
 
 function minifyCSS(cb) {
