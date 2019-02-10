@@ -16,8 +16,8 @@ class WP_Plugin_Template_Admin_Settings
         // Filters
         add_filter( 'plugin_action_links_' . PLUGIN_BASE_NAME, array( $this, 'add_settings_link' ) );
 
-        $this->plugin_name = 'WP_Plugin Template';
-        $this->plugin_menu = 'WP_Plugin Template';
+        $this->plugin_name = 'WP Plugin Template';
+        $this->plugin_menu = 'WP Plugin Template';
     }
 
     /**
@@ -56,9 +56,9 @@ class WP_Plugin_Template_Admin_Settings
     }
 
     /**
-     * Adds to the options table for our plugin.
+     * Adds actual settings to the plugins settings page.
      */
-    public function add_options() {
+    public function add_settings() {
         if ( !get_option( PLUGIN_SLUG_NAME . '_option' ) ) {
             add_option( PLUGIN_SLUG_NAME . '_option', $this->plugin_name );
         }
