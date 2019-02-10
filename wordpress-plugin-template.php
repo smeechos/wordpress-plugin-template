@@ -39,8 +39,8 @@ class WP_Plugin_Template {
         }
 
         // Includes
-        include( WPCC_PLUGIN_ROOT_DIR . 'includes/class-admin-settings.php' );
-        include( WPCC_PLUGIN_ROOT_DIR . 'includes/class-load-assets.php' );
+        include( PLUGIN_ROOT_DIR . 'includes/class-admin-settings.php' );
+        include( PLUGIN_ROOT_DIR . 'includes/class-load-assets.php' );
     }
 
 }

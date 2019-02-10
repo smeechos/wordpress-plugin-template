@@ -14,7 +14,7 @@ class WP_Plugin_Template_Admin_Settings
         add_action( 'admin_init', array( $this, 'add_settings' ) );
 
         // Filters
-        add_filter( 'plugin_action_links_' . WPCC_PLUGIN_BASE_NAME, array( $this, 'add_settings_link' ) );
+        add_filter( 'plugin_action_links_' . PLUGIN_BASE_NAME, array( $this, 'add_settings_link' ) );
 
         $this->plugin_name = 'WP_Plugin Template';
         $this->plugin_menu = 'WP_Plugin Template';
@@ -52,7 +52,7 @@ class WP_Plugin_Template_Admin_Settings
      * Includes the markup for the settings page.
      */
     public function settings_page_markup() {
-        include( WPCC_PLUGIN_ROOT_DIR . 'templates/admin-settings.php' );
+        include( PLUGIN_ROOT_DIR . 'templates/admin-settings.php' );
     }
 
     /**
